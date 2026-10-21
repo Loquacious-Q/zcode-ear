@@ -1,0 +1,17 @@
+# Downloads / local test artifacts
+*.bin
+*.zip
+*.bak
+*.wav
+*.log
+cache/
+backup/
+patched/
+dryrun/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+# Keep Windows launchers byte-exact (CRLF) in the repository and ZIP exports.
+*.cmd -text
+*.ps1 -text
+
+# Images are binary.
+*.png binary
+
+# Markdown / text
+*.md text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+LICENSE text eol=lf
+NOTICE.md text eol=lf
